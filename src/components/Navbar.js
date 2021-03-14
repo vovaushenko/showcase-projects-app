@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const NavbarContainer = styled.nav`
+const StyledNavbarContainer = styled.nav`
   display: flex;
   width: 90vw;
   margin: 0 auto;
@@ -13,10 +13,10 @@ const NavbarContainer = styled.nav`
 
 const Navbar = ({ themeToggler }) => {
   return (
-    <NavbarContainer>
+    <StyledNavbarContainer>
       <h3>Front-end Challenges</h3>
       <button onClick={() => themeToggler()}>click</button>
-    </NavbarContainer>
+    </StyledNavbarContainer>
   );
 };
 

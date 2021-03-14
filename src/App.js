@@ -3,6 +3,7 @@ import { useDarkMode } from './hooks/useDarkTheme';
 import { GlobalStyles } from './GlobalStyles';
 import { darkTheme, lightTheme } from './Themes';
 import Navbar from './components/Navbar';
+import ProjectList from './components/ProjectList';
 
 function App() {
   // @desc: Dark Mode
@@ -14,6 +15,7 @@ function App() {
       <ThemeProvider theme={themeMode}>
         <GlobalStyles />
         <Navbar themeToggler={themeToggler} />
+        <ProjectList />
       </ThemeProvider>
     </>
   );
