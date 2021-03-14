@@ -1,19 +1,26 @@
 export const lightTheme = {
-  body: 'hsl(236, 33%, 92%)',
+  body: '#F3F3F3',
   text: '#363537',
-  background: 'hsl(236, 33%, 92%)',
+  background: '#715CDA',
 };
 export const darkTheme = {
-  body: '#1E1631',
-  text: 'hsl(236, 33%, 92%)',
-  background: 'hsl(280, 87%, 65%)',
+  body: '#1D1D2D',
+  text: '#FAFBFB',
+  background: '#715CDA',
 };
 
-// palette
-// #1E1631
-// #EB9662
-// #F77F4F
-// #6C5564
-// #807CA3
-// #545474
-// https://www.uidesigndaily.com/posts/sketch-report-problem-modal-pop-up-day-1133
+// darkmode
+// #1D1D2D
+// #715CDA
+// #C4C3CC
+// #6F6E7C
+// #8C8C9A
+// #545461
+
+// lightmode
+// #F3F3F3
+// #715CDA
+// #9F9DB4
+// #8873F7
+// #84848C
+// #BCB0EC

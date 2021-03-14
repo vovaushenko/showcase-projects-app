@@ -23,8 +23,18 @@ export const GlobalStyles = createGlobalStyle`
 }
 
   button {
+    display: inline-block;
     font-size:1rem;
     font-family:inherit;
+    color: ${({ theme }) => theme.text};
+    background: ${({ theme }) => theme.background};
+    padding:0.125em 0.75em;
+    outline:none;
+    border-radius:6px;
+    border-color: transparent;
+    text-transform: capitalize;
+    cursor: pointer;
+
   }
 
   a {

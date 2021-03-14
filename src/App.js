@@ -1,22 +1,19 @@
-import styled, { ThemeProvider } from 'styled-components';
-
-import { GlobalStyles } from './GlobalStyles';
+import { ThemeProvider } from 'styled-components';
 import { useDarkMode } from './hooks/useDarkTheme';
+import { GlobalStyles } from './GlobalStyles';
 import { darkTheme, lightTheme } from './Themes';
+import Navbar from './components/Navbar';
 
 function App() {
   // @desc: Dark Mode
   const [theme, themeToggler] = useDarkMode('');
   const themeMode = theme === 'light' ? lightTheme : darkTheme;
 
-  /////////////////////////////////////////////////////////////
   return (
     <>
       <ThemeProvider theme={themeMode}>
         <GlobalStyles />
-        <h1>Hello world</h1>
-        <h2>Hello world</h2>
-        <button onClick={themeToggler}>click</button>
+        <Navbar themeToggler={themeToggler} />
       </ThemeProvider>
     </>
   );
