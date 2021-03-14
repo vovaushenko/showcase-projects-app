@@ -55,6 +55,7 @@ h1 {
 }
 h2 {
   font-size: 2rem;
+  color: ${({ theme }) => theme.projectTitle};
 }
 h3 {
   font-size: 1.25rem;

@@ -2,11 +2,13 @@ export const lightTheme = {
   body: '#F3F3F3',
   text: '#363537',
   background: '#715CDA',
+  projectTitle: '#715CDA',
 };
 export const darkTheme = {
   body: '#1D1D2D',
   text: '#FAFBFB',
   background: '#715CDA',
+  projectTitle: '#715CDA',
 };
 
 // darkmode
