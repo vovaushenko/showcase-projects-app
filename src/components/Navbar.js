@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import ThemeToggler from './ThemeToggler';
 
 const StyledNavbarContainer = styled.nav`
   display: flex;
@@ -9,13 +10,17 @@ const StyledNavbarContainer = styled.nav`
   align-items: center;
   justify-content: space-between;
   margin-top: 1rem;
+
+  h3 {
+    margin-bottom: 0;
+  }
 `;
 
 const Navbar = ({ themeToggler }) => {
   return (
     <StyledNavbarContainer>
       <h3>Front-end Challenges</h3>
-      <button onClick={() => themeToggler()}>click</button>
+      <ThemeToggler themeToggler={themeToggler} />
     </StyledNavbarContainer>
   );
 };

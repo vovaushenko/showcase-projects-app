@@ -30,7 +30,7 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.background};
     padding:0.125em 0.75em;
     outline:none;
-    border-radius:6px;
+    border-radius:2.5rem;
     border-color: transparent;
     text-transform: capitalize;
     cursor: pointer;
