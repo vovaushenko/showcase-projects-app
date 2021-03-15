@@ -11,6 +11,7 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     background: ${({ theme }) => theme.body};
+  
     color: ${({ theme }) => theme.text};
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
@@ -28,6 +29,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family:inherit;
     color: ${({ theme }) => theme.text};
     background: ${({ theme }) => theme.background};
+
     padding:0.125em 0.75em;
     outline:none;
     border-radius:2.5rem;
@@ -40,6 +42,7 @@ export const GlobalStyles = createGlobalStyle`
   a {
     text-decoration:none;
     color:${({ theme }) => theme.text};
+    background: ${({ theme }) => theme.background};
   }
   p{
     margin-bottom:0.75rem;
@@ -55,10 +58,10 @@ h1 {
 }
 h2 {
   font-size: 2rem;
-  color: ${({ theme }) => theme.projectTitle};
 }
 h3 {
   font-size: 1.25rem;
+  color: ${({ theme }) => theme.projectTitle};
 }
 h4 {
   font-size: 0.875rem;

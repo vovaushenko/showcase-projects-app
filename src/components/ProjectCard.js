@@ -7,8 +7,8 @@ const StyledCard = styled.main`
   justify-content: center;
   max-width: 600px;
   text-align: center;
-  border-radius: 6px;
-  padding: 1rem;
+  padding: 2rem;
+
   img {
     width: 90%;
   }

@@ -3,18 +3,18 @@ import projects from '../data';
 import ProjectCard from './ProjectCard';
 
 const StyledContainer = styled.main`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem;
   width: 90vw;
   margin: 0 auto;
   max-width: 1200px;
   margin-top: 1rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
   align-items: center;
   justify-items: center;
-  @media (max-width: 500px) {
+  /* @media (max-width: 500px) {
     grid-template-columns: 1fr;
-  }
+  } */
 `;
 
 const ProjectList = () => {

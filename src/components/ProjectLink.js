@@ -10,9 +10,9 @@ const StyledProjectLink = styled.a`
   border-color: transparent;
   text-transform: capitalize;
   cursor: pointer;
-  background: #715cda;
   width: 6rem;
   margin: 0 1rem;
+  color: #fafbfb;
 `;
 
 const ProjectLink = ({ text, address }) => {
