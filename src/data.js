@@ -5,6 +5,10 @@ import project4 from './images/Portfolio.png';
 import project5 from './images/linkedin-clone.png';
 import project6 from './images/rntls.png';
 
+import reactLogo from './images/react-original.svg';
+import reduxLogo from './images/redux-original.svg';
+import styledLogo from './images/styled-components.svg';
+
 const projects = [
   {
     id: 1,
@@ -12,7 +16,7 @@ const projects = [
     image: project1,
     description:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nesciunt nobis debitis id perspiciatis voluptatibus!',
-    languages: ['HTML', 'CSS', 'JavaScript'],
+    languages: [reactLogo, reduxLogo, styledLogo],
     tools: [],
   },
   {
@@ -21,7 +25,7 @@ const projects = [
     image: project2,
     description:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nesciunt nobis debitis id perspiciatis voluptatibus!',
-    languages: ['HTML', 'CSS', 'JavaScript'],
+    languages: [reactLogo, reduxLogo, styledLogo],
     tools: [],
   },
   {
@@ -30,7 +34,7 @@ const projects = [
     image: project3,
     description:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nesciunt nobis debitis id perspiciatis voluptatibus!',
-    languages: ['HTML', 'CSS', 'JavaScript'],
+    languages: [reactLogo, reduxLogo, styledLogo],
     tools: [],
   },
   {
@@ -39,7 +43,7 @@ const projects = [
     image: project4,
     description:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nesciunt nobis debitis id perspiciatis voluptatibus!',
-    languages: ['HTML', 'CSS', 'JavaScript'],
+    languages: [reactLogo, reduxLogo, styledLogo],
     tools: [],
   },
   {
@@ -48,7 +52,7 @@ const projects = [
     image: project5,
     description:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nesciunt nobis debitis id perspiciatis voluptatibus!',
-    languages: ['HTML', 'CSS', 'JavaScript'],
+    languages: [reactLogo, reduxLogo, styledLogo],
     tools: [],
   },
   {
@@ -57,7 +61,7 @@ const projects = [
     image: project6,
     description:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nesciunt nobis debitis id perspiciatis voluptatibus!',
-    languages: ['HTML', 'CSS', 'JavaScript'],
+    languages: [reactLogo, reduxLogo, styledLogo],
     tools: [],
   },
 ];
