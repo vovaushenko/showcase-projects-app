@@ -1,68 +1,67 @@
-import project1 from './images/coffeeshop-mern.png';
-import project2 from './images/Google-search-clone.png';
-import project3 from './images/rntls.png';
-import project4 from './images/Portfolio.png';
-import project5 from './images/linkedin-clone.png';
-import project6 from './images/rntls.png';
+import project1 from './images/Todo-laptop.png';
+import project2 from './images/Job-listings.png';
+import project3 from './images/Pagination.png';
+import project4 from './images/Infinite-scroll.png';
 
 import reactLogo from './images/react-original.svg';
 import reduxLogo from './images/redux-original.svg';
 import styledLogo from './images/styled-components.svg';
+import jsLogo from './images/javascript-original.svg';
 
 const projects = [
   {
     id: 1,
-    title: 'Todo React App | Redux',
+    title: 'Todo | frontendmentor.io',
     image: project1,
     description:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nesciunt nobis debitis id perspiciatis voluptatibus!',
+      'The classic todo app with a few twists! This app includes a dark/light theme && styles toggle. Built with React, Context API and Styled Components.',
     languages: [reactLogo, reduxLogo, styledLogo],
     tools: [],
+    links: [
+      'https://app.netlify.com/sites/todo-frontendmentor-app/overview',
+      'https://github.com/vovaushenko/todo-frontend-mentor-challenge',
+      'https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW',
+    ],
   },
   {
     id: 2,
-    title: 'Google | Redux',
+    title: 'Job Listings | frontendmentor.io',
     image: project2,
     description:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nesciunt nobis debitis id perspiciatis voluptatibus!',
+      'In this challenge, I was using React & Redux to built a simple Job listing app, that transforms an input JSON into responsive landing with the filtering functionality.',
     languages: [reactLogo, reduxLogo, styledLogo],
     tools: [],
+    links: [
+      'https://job-listings-redux.netlify.app',
+      'https://github.com/vovaushenko/job-listings-master-frontend-challenge',
+      'https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt',
+    ],
   },
   {
     id: 3,
-    title: 'RNTLS | Redux',
+    title: 'Dynamic Client-Side Pagination',
     image: project3,
     description:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nesciunt nobis debitis id perspiciatis voluptatibus!',
-    languages: [reactLogo, reduxLogo, styledLogo],
+      'In this challenge, I created a client-side, on-the-fly pagination with the use of React. This app fetches data from the GitHub REST API. User can dynamically change pagination parameters.',
+    languages: [reactLogo, jsLogo],
     tools: [],
+    links: [
+      'https://dynamic-pagination-react.netlify.app/',
+      'https://dynamic-pagination-react.netlify.app/',
+    ],
   },
   {
     id: 4,
-    title: 'Portfolio | Redux',
+    title: 'Infinite Scroll Photo App',
     image: project4,
     description:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nesciunt nobis debitis id perspiciatis voluptatibus!',
-    languages: [reactLogo, reduxLogo, styledLogo],
+      'In this challenge, I created an infinite scroll photo App with the use of React and Unsplash.com. User can select any topic for search and the app will rended thousands of photos.',
+    languages: [reactLogo, jsLogo],
     tools: [],
-  },
-  {
-    id: 5,
-    title: 'Linkedin | Redux',
-    image: project5,
-    description:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nesciunt nobis debitis id perspiciatis voluptatibus!',
-    languages: [reactLogo, reduxLogo, styledLogo],
-    tools: [],
-  },
-  {
-    id: 6,
-    title: 'Cool RNTLS | Redux',
-    image: project6,
-    description:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nesciunt nobis debitis id perspiciatis voluptatibus!',
-    languages: [reactLogo, reduxLogo, styledLogo],
-    tools: [],
+    links: [
+      'https://infinite-scroll-app-react.netlify.app/',
+      'https://infinite-scroll-app-react.netlify.app/',
+    ],
   },
 ];
 

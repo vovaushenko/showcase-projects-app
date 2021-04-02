@@ -16,7 +16,11 @@ const StyledProjectLink = styled.a`
 `;
 
 const ProjectLink = ({ text, address }) => {
-  return <StyledProjectLink href={address}>{text}</StyledProjectLink>;
+  return (
+    <StyledProjectLink href={address} target="_blank">
+      {text}
+    </StyledProjectLink>
+  );
 };
 
 export default ProjectLink;

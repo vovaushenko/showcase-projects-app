@@ -12,9 +12,6 @@ const StyledContainer = styled.main`
   margin-top: 1rem;
   align-items: center;
   justify-items: center;
-  /* @media (max-width: 500px) {
-    grid-template-columns: 1fr;
-  } */
 `;
 
 const ProjectList = () => {

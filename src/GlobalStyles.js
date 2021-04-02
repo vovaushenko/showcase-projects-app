@@ -50,7 +50,7 @@ export const GlobalStyles = createGlobalStyle`
   h1,h2,h3,h4,h5 {
     margin-bottom:0.75rem;
     line-height: 1.25;
-    text-transform: capitalize;
+    
   }
 
 h1 {
@@ -61,7 +61,6 @@ h2 {
 }
 h3 {
   font-size: 1.25rem;
-  color: ${({ theme }) => theme.projectTitle};
 }
 h4 {
   font-size: 0.875rem;
