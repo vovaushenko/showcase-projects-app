@@ -3,15 +3,15 @@ import projects from '../data';
 import ProjectCard from './ProjectCard';
 
 const StyledContainer = styled.main`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 1rem;
   width: 90vw;
-  margin: 0 auto;
-  max-width: 1200px;
-  margin-top: 1rem;
-  align-items: center;
-  justify-items: center;
+  max-width: 1170px;
+  margin: 2rem auto;
+
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
 `;
 
 const ProjectList = () => {

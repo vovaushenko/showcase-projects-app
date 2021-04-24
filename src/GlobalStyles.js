@@ -1,6 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
+
+
 *,
 ::after,
 ::before {
@@ -23,21 +25,11 @@ export const GlobalStyles = createGlobalStyle`
   list-style-type: none;
 }
 
-  button {
-    display: inline-block;
-    font-size:1rem;
-    font-family:inherit;
-    color: ${({ theme }) => theme.text};
-    background: ${({ theme }) => theme.background};
+img {
+  display:block;
+  width: 100%;
+}
 
-    padding:0.125em 0.75em;
-    outline:none;
-    border-radius:2.5rem;
-    border-color: transparent;
-    text-transform: capitalize;
-    cursor: pointer;
-
-  }
 
   a {
     text-decoration:none;
@@ -50,6 +42,7 @@ export const GlobalStyles = createGlobalStyle`
   h1,h2,h3,h4,h5 {
     margin-bottom:0.75rem;
     line-height: 1.25;
+    letter-spacing:2px;
     
   }
 

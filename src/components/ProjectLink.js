@@ -13,6 +13,11 @@ const StyledProjectLink = styled.a`
   width: 6rem;
   margin: 0 1rem;
   color: #fafbfb;
+  border: 2px solid transparent;
+
+  :hover {
+    border: 2px solid #fafbfb;
+  }
 `;
 
 const ProjectLink = ({ text, address }) => {

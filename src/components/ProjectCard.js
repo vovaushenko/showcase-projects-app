@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 import ProjectLink from './ProjectLink';
 
 const StyledCard = styled.article`
@@ -6,9 +7,9 @@ const StyledCard = styled.article`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 600px;
   text-align: center;
   padding: 2rem;
+  margin: 1rem 0;
   background: rgba(113, 92, 218, 0.14);
   box-shadow: 0 18px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(1.5px);
@@ -74,6 +75,15 @@ const ProjectCard = ({ title, image, description, languages, links }) => {
       </StyledBtnWrapper>
     </StyledCard>
   );
+};
+
+ProjectCard.propTypes = {
+  title: PropTypes.string,
+  image: PropTypes.string,
+  description: PropTypes.string,
+  languages: PropTypes.array,
+  tools: PropTypes.array,
+  links: PropTypes.array,
 };
 
 export default ProjectCard;
