@@ -1,5 +1,5 @@
-# Coffee-Shop-MERN (React / Redux / Node / MongoDB)
-A completely customized eCommerce / shopping cart application built from scratch with the MERN stack. Fully written with *React Hooks*, *Redux* and *Node.js*.
+# My Web Dev Experiments
+A collection of projects, challenges and creative experiments that I designed, coded and deployed.
 
 
 # Demo
