@@ -1,13 +1,13 @@
-# My Web Dev Experiments
+# 🌎 My Web Dev Experiments 💻
 A collection of projects, challenges and creative experiments that I designed, coded and deployed.
 
 
-# Demo
+# 🌎 Demo
 The app is hosted on Heroku. [**TRY IT IN ACTION!**](https://frontend-projects-by-vova.netlify.app/)
 
 
 
-# Tech Features
+# 🌎 Tech Features
 - [x] React with Functional Components & Hooks
 - [x] Redux
 - [x] React with Typescript
